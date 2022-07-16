@@ -1,0 +1,44 @@
+:root {
+    --rojo: #ff4646;
+    --amarillo: #f5c33a;
+    --blanco: #ffffff;
+}
+html {
+    background-color: var(--amarillo);
+    color: var(--blanco);
+    font-family: 'Fredoka One', cursive;
+}
+header img {
+    display: block;
+    margin: auto;
+    width: 20vw;
+    margin-top: 5vh;
+}
+header h1 {
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 4vw;
+}
+h2 {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 2vw;
+}
+@media screen and (max-width: 500px) {
+    header img {
+        display: block;
+        margin: auto;
+        width: 60vw;
+        margin-top: 15vh;
+    }
+    header h1 {
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 15vw;
+    }
+    h2 {
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 5vw;
+    }
+}
