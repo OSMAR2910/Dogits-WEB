@@ -1,0 +1,88 @@
+:root {
+    --rojo: #ff4646;
+    --amarillo: #f5c33a;
+    --blanco: #ffffff;
+}
+html {
+    background-color: var(--amarillo);
+    color: var(--blanco);
+    font-family: 'Fredoka One', cursive;
+}
+a {
+    text-decoration: none;
+    color: var(--blanco);
+    transition: all 0.6s;
+}
+a:hover {
+    color: var(--amarillo);
+}
+header img {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+h1{
+    text-align: center;
+    margin-top: 0vh;
+    font-size: 4vw;
+}
+nav {
+    text-align: center;
+}
+nav a{
+    background-color: var(--rojo);
+    padding: 1%;
+}
+main section {
+    margin-top: 5vh;
+    background-color: var(--rojo);
+    padding: 1%;
+}
+@media screen and (max-width: 500px) {
+    html {
+        background-color: var(--amarillo);
+        color: var(--blanco);
+        font-family: 'Fredoka One', cursive;
+    }
+    a {
+        text-decoration: none;
+        color: var(--blanco);
+        transition: all 0.6s;
+    }
+    a:hover {
+        color: var(--amarillo);
+    }
+    header img {
+        display: block;
+        margin: auto;
+        margin-top: 5vh;
+    }
+    h1{
+        text-align: center;
+        margin-top: 0vh;
+        font-size: 15vw;
+    }
+    nav a{
+        width: 55vw;
+        height: 4vh;
+        font-size: 1.3rem;
+        border-radius: 2.5vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1vh;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    main section img {
+        width: 60vw;
+        padding: 1.5%;
+        background-color: var(--rojo);
+    }
+    main section{
+        border-radius: 2.5vw;
+    }
+    main section p{
+        font-size: 1.2rem;
+    }
+}

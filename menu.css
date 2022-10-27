@@ -1,0 +1,119 @@
+:root {
+    --rojo: #ff4646;
+    --rojoc: #fd5757;
+    --amarillo: #f5c33a;
+    --blanco: #ffffff;
+}
+html {
+    background-color: var(--amarillo);
+    color: var(--blanco);
+    font-family: 'Fredoka One', cursive;
+}
+a {
+    text-decoration: none;
+    color: var(--blanco);
+    transition: all 0.6s;
+}
+a:hover {
+    color: var(--amarillo);
+}
+header img {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+h1{
+    text-align: center;
+    margin-top: 0vh;
+    font-size: 4vw;
+}
+nav {
+    text-align: center;
+}
+nav a{
+    background-color: var(--rojo);
+    padding: 1%;
+    text-decoration: none;
+    color: var(--blanco);
+}
+main section {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 2.5%;
+    background-color: var(--rojo);
+}
+main h2 {
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: -2%;
+    padding: 1.5%;
+}
+main section h3{
+    text-align: center;
+    font-size: 1.4vw;
+    margin-bottom: 2%;
+    margin-top: -1%;
+}
+main section b {
+    font-size:1rem;
+    text-align: center;
+}
+main section p {
+    font-size:0.8rem;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    html {
+        background-color: var(--amarillo);
+        color: var(--blanco);
+        font-family: 'Fredoka One', cursive;
+    }
+    a {
+        text-decoration: none;
+        color: var(--blanco);
+        transition: all 0.6s;
+    }
+    a:hover {
+        color: var(--amarillo);
+    }
+    header img {
+        display: block;
+        margin: auto;
+        margin-top: 5vh;
+    }
+    h1{
+        text-align: center;
+        margin-top: 0vh;
+        font-size: 15vw;
+    }
+    nav a{
+        width: 55vw;
+        height: 4vh;
+        font-size: 1.3rem;
+        border-radius: 2.5vw;
+        padding-top: 1.5vh;
+        padding-bottom: 1vh;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    main section img {
+        width: 60vw;
+        padding: 1.5%;
+        background-color: var(--rojo);
+    }
+    main section{
+    border-radius: 2.5vw;
+    }
+    main h2{
+        font-size: 2.5em;
+    }
+    main section h3{
+        font-size: 1.5em;
+    }
+    main section b{
+        font-size: 1.2em;
+    }
+}
