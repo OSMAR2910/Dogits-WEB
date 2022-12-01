@@ -37,8 +37,8 @@
     }
     
     .contenedor {
-        width: 920px;
-        height: 280px;
+        width: 95vw;
+        height: 300px;
         margin: 0 auto;
 
         position: relative;
@@ -259,7 +259,7 @@ function Start() {
     contenedor = document.querySelector(".contenedor");
     textoScore = document.querySelector(".score");
     dino = document.querySelector(".dino");
-    document.addEventListener("keydown", HandleKeyDown);
+    document.addEventListener("Touch", HandleTouch);
 }
 
 function Update() {
@@ -276,7 +276,7 @@ function Update() {
     velY -= gravedad * deltaTime;
 }
 
-function HandleKeyDown(ev){
+function HandleTouch(ev){
     if(ev.keyCode == 32){
         Saltar();
     }
