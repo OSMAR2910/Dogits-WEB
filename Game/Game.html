@@ -260,6 +260,7 @@ function Start() {
     textoScore = document.querySelector(".score");
     dino = document.querySelector(".dino");
     document.addEventListener("keydown", HandleKeyDown);
+    document.addEventListener("touchstart", Handletouchstart);
 }
 
 function Update() {
@@ -275,8 +276,14 @@ function Update() {
 
     velY -= gravedad * deltaTime;
 }
-
+ 
 function HandleKeyDown(ev){
+    if(ev.keyCode == 32){
+        Saltar();
+    }
+}
+
+function Handletouchstart(ev){
     if(ev.keyCode == 32){
         Saltar();
     }
