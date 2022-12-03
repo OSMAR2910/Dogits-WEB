@@ -275,8 +275,8 @@ function Update() {
     velY -= gravedad * deltaTime;
 }
 
-function Handletouchstart(e){
-    if(e.keyCode == 32){
+function Handletouchstart(ev){
+    if(ev.touches == 32){
         Saltar();
     }
 }
