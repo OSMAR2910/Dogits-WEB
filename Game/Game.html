@@ -264,12 +264,12 @@ function Start() {
     contenedor = document.querySelector(".contenedor");
     textoScore = document.querySelector(".score");
     dino = document.querySelector(".dino");
-    document.addEventListener("KeyDown", HandleKeyDown);
+    document.addEventListener("keydown", HandleKeyDown);
 }
 
 function Update() {
     if(parado) return;
-
+    
     MoverDinosaurio();
     MoverSuelo();
     DecidirCrearObstaculos();
@@ -284,14 +284,6 @@ function Update() {
 function HandleKeyDown(ev){
     if(ev.keyCode == 32){
         Saltar();
-    }
-}
-
-function Saltar(){
-    if(dinoPosY === sueloY){
-        saltando = true;
-        velY = impulso;
-        dino.classList.remove("dino-corriendo");
     }
 }
 
