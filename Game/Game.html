@@ -223,7 +223,7 @@ var impulso = 900;
 var gravedad = 2500;
 
 var dinoPosX = 42;
-var dinoPosY = sueloY;
+var dinoPosY = sueloY; 
 
 var sueloX = 0;
 var velEscenario = 1280/3;
@@ -252,11 +252,6 @@ var dino;
 var textoScore;
 var suelo;
 var gameOver;
-
-var elem = document.getElementById("Body");
-if (elem.requestFullscreen) {
-  elem.requestFullscreen();
-}
 
 function Start() {
     gameOver = document.querySelector(".game-over");
@@ -287,10 +282,18 @@ function HandleKeyDown(ev){
     }
 }
 
+function Saltar(){
+    if(dinoPosY === sueloY){
+        saltando = true;
+        velY = impulso;
+        dino.classList.remove("dino-corriendo");
+    }
+}
+
 function MoverDinosaurio() {
     dinoPosY += velY * deltaTime;
     if(dinoPosY < sueloY){
-
+        
         TocarSuelo();
     }
     dino.style.bottom = dinoPosY+"px";
@@ -353,7 +356,7 @@ function CrearNube() {
     nube.posX = contenedor.clientWidth;
     nube.style.left = contenedor.clientWidth+"px";
     nube.style.bottom = minNubeY + Math.random() * (maxNubeY-minNubeY)+"px";
-
+    
     nubes.push(nube);
     tiempoHastaNube = tiempoNubeMin + Math.random() * (tiempoNubeMax-tiempoNubeMin) / gameVel;
 }
