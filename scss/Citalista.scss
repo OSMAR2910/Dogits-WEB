@@ -1,6 +1,9 @@
 @import "nav";
 @import "variables";
 @import "fondo";
+html {
+    font-family: $Fedoka;
+}
 h1 {
     color: var(--Blanco);
     text-align: center;

@@ -3,7 +3,7 @@
 html {
     background-color: $Primario;
     font-family: 'Nunito Sans', sans-serif;
-    transition-duration: all 0.5s
+    font-family: $Fedoka;
 }
 #in {
     height: 10vh;
@@ -29,6 +29,7 @@ nav {
         font-size: 1.5vw;
         text-decoration: none;
         color: $Blanco;
+        font-family: $Fedoka;
     }
     
 }

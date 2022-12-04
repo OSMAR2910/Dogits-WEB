@@ -1,6 +1,9 @@
 @import "nav";
 @import "variables";
 @import "fondo";
+html {
+    font-family: $Fedoka;
+}
 #galeria {
     background-color: $Rojo;
     margin: 2vw;

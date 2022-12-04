@@ -1,8 +1,9 @@
 /*Movil*/
+@import "variables";
 html {
     background-color: $Primario;
     font-family: 'Nunito Sans', sans-serif;
-    transition-duration: all 0.5s
+    font-family: $Fedoka;
 }
 
 nav {
@@ -14,6 +15,7 @@ nav {
 
     a {
         font-size: 0.8rem;
+        font-family: $Fedoka;
     }
 }
 footer {

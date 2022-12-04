@@ -1,6 +1,9 @@
 @import "variables";    
 @import "nav";
 @import "fondo";
+html {
+    font-family: $Fedoka;
+}
 #PR {
     font-size: 0.8rem;
     background-color: $Secundario;
