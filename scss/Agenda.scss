@@ -1,0 +1,90 @@
+@import "nav";
+@import "variables";
+@import "fondo";
+#img {
+    margin-bottom: 5vh;
+    text-align: center;
+}
+#img img {
+    width: 15vw;
+}
+#paypal-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65vw;
+    padding-top: 1.5rem;
+}
+#info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $Secundario;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    width: 50vw;
+    height: 15vh;
+}
+.date {
+    text-align: center;
+    width: 45vw; 
+    height: 2.5vh;
+    color: $Negro;
+    border-radius: 0.5rem;
+    border-color: $Rojat;
+}
+@media screen and (max-width: 500px) {
+    @import "nav-m";
+    nav {
+        margin-top: -33vh;
+        padding: 3vw;
+        width: 90vw;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    main img {
+        width: 60vw;
+        margin-top: 0vw;
+    }
+    #int {
+        height: 50vh;
+    }
+    #int img {
+        width: 40vw;
+    }
+    #img {
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+    #img img {
+        width: 30vw;
+    }
+    #paypal-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65vw;
+        padding-top: 1.5rem;
+    }
+    #info {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $Secundario;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        width: 50vw;
+        height: 15vh;
+    }
+    .date {
+        text-align: center;
+        width: 45vw; 
+        height: 2.5vh;
+        color: $Negro;
+        border-radius: 0.5rem;
+        border-color: $Secundario;
+    }
+}

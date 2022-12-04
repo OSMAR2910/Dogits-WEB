@@ -1,0 +1,24 @@
+/*Movil*/
+html {
+    background-color: $Primario;
+    font-family: 'Nunito Sans', sans-serif;
+    transition-duration: all 0.5s
+}
+
+nav {
+    margin-top: -32.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 3.5vw;
+    width: 90vw;
+
+    a {
+        font-size: 0.8rem;
+    }
+}
+footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: $Blanco;
+}

@@ -1,0 +1,292 @@
+/*Colores*/ /*General*/ /*Colores*/
+html {
+  background-color: #f4d62a;
+  font-family: "Nunito Sans", sans-serif;
+  transition-duration: all 0.5s;
+}
+
+#in {
+  height: 10vh;
+}
+
+main img {
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  border-color: #f4d62a;
+  margin-top: -45vh;
+  width: 95.7vw;
+  position: fixed;
+  border-bottom: 0.4vh solid #f4d62a;
+  display: flex;
+  padding: 1vw;
+  background-color: rgba(134, 23, 32, 0.6666666667);
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  color: #ffffff;
+}
+
+#F video {
+  height: 0vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -101;
+}
+
+#ag {
+  position: fixed;
+  margin-left: 2vw;
+  margin-top: -25vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+#int {
+  text-decoration: none;
+  color: #ffffff;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#int video {
+  position: absolute;
+  height: inherit;
+  z-index: -100;
+}
+#int img {
+  width: 25vw;
+}
+
+#info {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #861720;
+  height: 50vh;
+  text-align: center;
+}
+
+#serv {
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #861720;
+  height: 85vh;
+  text-align: center;
+}
+#serv img {
+  padding: 0.4rem;
+  border: 0.3rem solid #ffffff;
+  border-radius: 10rem;
+  margin-top: 15vh;
+  width: 15vw;
+  transition: all 0.5s;
+}
+#serv img:hover {
+  width: 16vw;
+}
+#serv .left {
+  margin-left: 5vw;
+  float: left;
+}
+#serv .right {
+  margin-right: 5vw;
+  float: right;
+}
+
+#gale {
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #861720;
+  height: 25vh;
+  text-align: center;
+}
+#gale a {
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f4d62a;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+#gale a:hover {
+  padding: 1.7rem;
+}
+
+#cont {
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #861720;
+  height: 50vh;
+  text-align: center;
+}
+#cont a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#cont .wa img {
+  border-radius: 10vw;
+}
+
+.hr img {
+  width: 5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+footer {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  color: #ffffff;
+}
+
+#s1, #s2, #s3, #s4 {
+  height: 10vh;
+}
+
+@media screen and (max-width: 500px) {
+  /*Movil*/
+  html {
+    background-color: #f4d62a;
+    font-family: "Nunito Sans", sans-serif;
+    transition-duration: all 0.5s;
+  }
+  nav {
+    margin-top: -32.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 3.5vw;
+    width: 90vw;
+  }
+  nav a {
+    font-size: 0.8rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: #ffffff;
+  }
+  #ag {
+    position: fixed;
+    margin-left: 2vw;
+    margin-top: -25vh;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  #ag img {
+    width: 15vw;
+    border-radius: 3rem;
+    padding: 1px;
+    border: 0.2rem solid #ffffff;
+  }
+  main img {
+    width: 60vw;
+    margin-top: 0vw;
+  }
+  #int {
+    height: 25vh;
+  }
+  #int img {
+    width: 45vw;
+  }
+  #int video {
+    position: absolute;
+    height: inherit;
+    z-index: -100;
+  }
+  #info {
+    margin: 2.5vw;
+    height: 50vh;
+    padding: 10vw;
+    font-size: 1.2rem;
+  }
+  #serv {
+    margin: 2.5vw;
+    padding: 1rem;
+    height: 120vh;
+    text-align: center;
+  }
+  #serv img {
+    padding: 0.4rem;
+    border: 0.3rem solid #ffffff;
+    border-radius: 10rem;
+    margin-top: 0vh;
+    width: 45vw;
+    transition: all 0.5s;
+  }
+  #serv img:hover {
+    width: 40vw;
+  }
+  #serv .left {
+    margin-left: 0vw;
+    float: none;
+  }
+  #serv .right {
+    margin-right: 0vw;
+    float: none;
+  }
+  #gale {
+    margin: 2.5vw;
+    height: 25vh;
+    padding: 5vw;
+    font-size: 1.2rem;
+    transition: all 0.5s;
+  }
+  #gale h2 {
+    margin-bottom: 5vh;
+  }
+  #gale a {
+    padding: 1.5rem;
+    border-radius: 2rem;
+  }
+  #gale a:hover {
+    padding: 1.7rem;
+  }
+  #cont {
+    margin: 2.5vw;
+    height: 50vh;
+    padding: 5vw;
+    font-size: 1.2rem;
+  }
+  #cont .wa img {
+    border-radius: 10vw;
+  }
+  .hr img {
+    width: 12vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  #redes {
+    background-color: rgba(255, 255, 255, 0.3411764706);
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: #ffffff;
+  }
+  #s1, #s2, #s3, #s4 {
+    height: 8vh;
+  }
+}/*# sourceMappingURL=Web.css.map */

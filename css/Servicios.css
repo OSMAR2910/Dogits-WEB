@@ -1,0 +1,129 @@
+/*Colores*/ /*General*/ /*Colores*/
+html {
+  background-color: #f4d62a;
+  font-family: "Nunito Sans", sans-serif;
+  transition-duration: all 0.5s;
+}
+
+#in {
+  height: 10vh;
+}
+
+main img {
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  border-color: #f4d62a;
+  margin-top: -45vh;
+  width: 95.7vw;
+  position: fixed;
+  border-bottom: 0.4vh solid #f4d62a;
+  display: flex;
+  padding: 1vw;
+  background-color: rgba(134, 23, 32, 0.6666666667);
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  color: #ffffff;
+}
+
+#F video {
+  height: 0vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -101;
+}
+
+#PR {
+  font-size: 0.8rem;
+  background-color: #861720;
+  padding: 1rem;
+  height: 80vh;
+  text-align: center;
+  color: #ffffff;
+}
+#PR img {
+  width: 10vw;
+  padding: 0.4rem;
+  border: 0.4rem solid #ffffff;
+  border-radius: 10rem;
+}
+#PR .left {
+  margin-left: 3vw;
+  float: left;
+}
+#PR .right {
+  margin-right: 3vw;
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  /*Movil*/
+  html {
+    background-color: #f4d62a;
+    font-family: "Nunito Sans", sans-serif;
+    transition-duration: all 0.5s;
+  }
+  nav {
+    margin-top: -32.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 3.5vw;
+    width: 90vw;
+  }
+  nav a {
+    font-size: 0.8rem;
+  }
+  footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: #ffffff;
+  }
+  main img {
+    width: 60vw;
+    margin-top: 0vw;
+  }
+  #PR {
+    margin: 3vw;
+    font-size: 1rem;
+    background-color: #861720;
+    padding: 1rem;
+    height: 200vh;
+    text-align: center;
+    color: #ffffff;
+  }
+  #PR img {
+    margin-top: 2vh;
+    padding: 0.4rem;
+    border: 0.3rem solid #ffffff;
+    border-radius: 10rem;
+    width: 30vw;
+  }
+  #PR .P {
+    margin-top: 5vh;
+  }
+  #PR .left {
+    margin-left: 0vw;
+    float: none;
+  }
+  #PR .right {
+    margin-right: 0vw;
+    float: none;
+  }
+}/*# sourceMappingURL=Servicios.css.map */

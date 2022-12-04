@@ -1,0 +1,39 @@
+/*General*/
+@import "variables";
+html {
+    background-color: $Primario;
+    font-family: 'Nunito Sans', sans-serif;
+    transition-duration: all 0.5s
+}
+#in {
+    height: 10vh;
+}
+main img {
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    border-color: $Primario;
+    margin-top: -45vh;
+    width: 95.7vw;
+    position: fixed;
+    border-bottom: 0.4vh solid $Primario;
+    display: flex;
+    padding: 1vw;
+    background-color: $Rojot;
+    justify-content: space-evenly;
+    a {
+        font-size: 1.5vw;
+        text-decoration: none;
+        color: $Blanco;
+    }
+    
+}
+footer {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: $Blanco;
+}

@@ -1,0 +1,61 @@
+@import "variables";    
+@import "nav";
+@import "fondo";
+#PR {
+    font-size: 0.8rem;
+    background-color: $Secundario;
+    padding: 1rem;
+    height: 80vh;
+    text-align: center;
+    color: $Blanco;
+
+    img {
+        width: 10vw;
+        padding: 0.4rem;
+        border: 0.4rem solid $Blanco;
+        border-radius: 10rem;
+    }
+    .left {
+        margin-left: 3vw;
+        float: left;
+    }
+    .right {
+        margin-right: 3vw;
+        float: right;
+    }
+}
+@media screen and (max-width: 500px) {
+    @import "nav-m";
+    main img {
+        width: 60vw;
+        margin-top: 0vw;
+    }
+    #PR {
+        margin: 3vw;
+        font-size: 1rem;
+        background-color: $Secundario;
+        padding: 1rem;
+        height: 200vh;
+        text-align: center;
+        color: $Blanco;
+
+        img {
+            margin-top: 2vh;
+            padding: 0.4rem;
+            border: 0.3rem solid $Blanco;
+            border-radius: 10rem;
+            width: 30vw;
+        }
+        .P {
+            margin-top: 5vh;
+        }
+        .left {
+        margin-left: 0vw;
+        float: none;
+        }
+        .right {
+        margin-right: 0vw;
+        float: none;
+        }
+    }
+}
