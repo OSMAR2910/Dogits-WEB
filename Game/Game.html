@@ -188,7 +188,7 @@
     </style>
 </head>
 <body>
-    <audio class="backsound">
+    <audio class="backsound" autobuffer="true" autoplay="true" playsinline="true" loop="true">
         <source src="sound/backsound.mp3">
     </audio>
         <nav>
@@ -294,7 +294,7 @@
         
         function Update() {
             if(parado) return;
-            backsound.play();
+
             MoverDinosaurio();
             MoverSuelo();
             DecidirCrearObstaculos();
@@ -437,7 +437,6 @@
         function GameOver() {
             Estrellarse();
             gameOver.style.display = "block";
-            backsound.stop();
             audioGameOver.play();
         }
         
