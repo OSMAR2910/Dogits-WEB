@@ -188,7 +188,7 @@
     </style>
 </head>
 <body>
-    <audio autobuffer="true" autoplay="true" playsinline="true" loop="true">
+    <audio class="backsound" autobuffer="true" autoplay="true" playsinline="true" loop="true">
         <source src="sound/backsound.mp3">
     </audio>
         <nav>
@@ -276,6 +276,7 @@
         var textoScore;
         var suelo;
         var gameOver;
+        var backsound;
         var audioSalto;
         var audioGameOver;
         
@@ -285,6 +286,7 @@
             contenedor = document.querySelector(".contenedor");
             textoScore = document.querySelector(".score");
             dino = document.querySelector(".dino");
+            backsound = document.querySelector(".backsound");
             audioSalto = document.querySelector(".audio-salto");
             audioGameOver = document.querySelector(".audio-gameOver");
             document.addEventListener("keydown", HandleKeyDown);
@@ -436,6 +438,7 @@
             Estrellarse();
             gameOver.style.display = "block";
             audioGameOver.play();
+            backsound.stop();
         }
         
         function DetectarColision() {
