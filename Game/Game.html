@@ -289,7 +289,7 @@
             backsound = document.querySelector(".backsound");
             audioSalto = document.querySelector(".audio-salto");
             audioGameOver = document.querySelector(".audio-gameOver");
-            document.addEventListener("touchstart", HandleKeyDown);
+            document.addEventListener("KeyDown", HandleKeyDown);
         }
         
         function Update() {
@@ -307,11 +307,10 @@
         }
         
         function HandleKeyDown(ev){
-            if(ev.touchend == 32){
+            if(ev.keyCode == 32){
                 Saltar();
             }
         }
-        /*keyCode*/
         function Saltar(){
             if(dinoPosY === sueloY){
                 saltando = true;
