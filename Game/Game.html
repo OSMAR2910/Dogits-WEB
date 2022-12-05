@@ -276,7 +276,6 @@
         var textoScore;
         var suelo;
         var gameOver;
-        var backsound;
         var audioSalto;
         var audioGameOver;
         
@@ -288,12 +287,12 @@
             dino = document.querySelector(".dino");
             audioSalto = document.querySelector(".audio-salto");
             audioGameOver = document.querySelector(".audio-gameOver");
-            document.addEventListener("KeyDown", HandleKeyDown);
+            document.addEventListener("keydown", HandleKeyDown);
         }
         
         function Update() {
             if(parado) return;
-
+            
             MoverDinosaurio();
             MoverSuelo();
             DecidirCrearObstaculos();
@@ -310,6 +309,7 @@
                 Saltar();
             }
         }
+        
         function Saltar(){
             if(dinoPosY === sueloY){
                 saltando = true;
