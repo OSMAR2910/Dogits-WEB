@@ -287,7 +287,8 @@
             dino = document.querySelector(".dino");
             audioSalto = document.querySelector(".audio-salto");
             audioGameOver = document.querySelector(".audio-gameOver");
-            document.addEventListener("keydown", HandleKeyDown);
+            document.addEventListener("touchStart", onlyTouch, false);
+            /*document.addEventListener("KeyDown", HandleKeyDown);*/
         }
         
         function Update() {
@@ -304,7 +305,7 @@
             velY -= gravedad * deltaTime;
         }
         
-        function HandleKeyDown(ev){
+        function onlyTouch(ev){
             if(ev.keyCode == 32){
                 Saltar();
             }
