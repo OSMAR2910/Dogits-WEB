@@ -1,8 +1,9 @@
 /*General*/ /*Colores*/
+/*Tipos de letra*/
 html {
-  background-color: #f4d62a;
+  background-color: #f8d15f;
   font-family: "Nunito Sans", sans-serif;
-  transition-duration: all 0.5s;
+  font-family: "Fredoka One", cursive;
 }
 
 #in {
@@ -18,11 +19,11 @@ main img {
 }
 
 nav {
-  border-color: #f4d62a;
+  border-color: #f8d15f;
   margin-top: -45vh;
   width: 95.7vw;
   position: fixed;
-  border-bottom: 0.4vh solid #f4d62a;
+  border-bottom: 0.4vh solid #f8d15f;
   display: flex;
   padding: 1vw;
   background-color: rgba(134, 23, 32, 0.6666666667);
@@ -32,6 +33,7 @@ nav a {
   font-size: 1.5vw;
   text-decoration: none;
   color: #ffffff;
+  font-family: "Fredoka One", cursive;
 }
 
 footer {
@@ -41,8 +43,9 @@ footer {
 }
 
 /*Colores*/
+/*Tipos de letra*/
 #F video {
-  height: 0vh;
+  height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
@@ -61,11 +64,12 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-  /*Movil*/
+  /*Movil*/ /*Colores*/
+  /*Tipos de letra*/
   html {
-    background-color: #f4d62a;
+    background-color: #f8d15f;
     font-family: "Nunito Sans", sans-serif;
-    transition-duration: all 0.5s;
+    font-family: "Fredoka One", cursive;
   }
   nav {
     margin-top: -32.5vh;
@@ -76,6 +80,7 @@ footer {
   }
   nav a {
     font-size: 0.8rem;
+    font-family: "Fredoka One", cursive;
   }
   footer {
     text-align: center;
