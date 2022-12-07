@@ -1,9 +1,10 @@
 /*General*/
 @import "variables";
+*{
+    font-family: $Letra;
+}
 html {
     background-color: $Primario;
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: $Letra;
 }
 #in {
     height: 10vh;

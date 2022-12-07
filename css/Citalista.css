@@ -1,9 +1,11 @@
 /*General*/ /*Colores*/
 /*Tipos de letra*/
+* {
+  font-family: "Fredoka One", cursive;
+}
+
 html {
   background-color: #f8d15f;
-  font-family: "Nunito Sans", sans-serif;
-  font-family: "Fredoka One", cursive;
 }
 
 #in {

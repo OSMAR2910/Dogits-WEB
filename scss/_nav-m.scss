@@ -1,9 +1,10 @@
 /*Movil*/
 @import "variables";
+*{
+    font-family: $Letra;
+}
 html {
     background-color: $Primario;
-    font-family: 'Nunito Sans', sans-serif;
-    font-family: $Letra;
 }
 
 nav {
@@ -22,5 +23,5 @@ footer {
     text-align: center;
     margin-top: 6vh;
     margin-bottom: 6vh;
-    color: $Blanco;
+    color: $Blanco
 }

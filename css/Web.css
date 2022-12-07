@@ -2,10 +2,12 @@
 /*Tipos de letra*/
 /*General*/ /*Colores*/
 /*Tipos de letra*/
+* {
+  font-family: "Fredoka One", cursive;
+}
+
 html {
   background-color: #f8d15f;
-  font-family: "Nunito Sans", sans-serif;
-  font-family: "Fredoka One", cursive;
 }
 
 #in {
@@ -170,10 +172,11 @@ footer {
 @media screen and (max-width: 500px) {
   /*Movil*/ /*Colores*/
   /*Tipos de letra*/
+  * {
+    font-family: "Fredoka One", cursive;
+  }
   html {
     background-color: #f8d15f;
-    font-family: "Nunito Sans", sans-serif;
-    font-family: "Fredoka One", cursive;
   }
   nav {
     margin-top: -32.5vh;
