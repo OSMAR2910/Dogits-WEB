@@ -1,0 +1,27 @@
+/*Movil sin logo*/
+@import "variables";
+*{
+    font-family: $Letra;
+}
+html {
+    background-color: $Primario;
+}
+
+nav {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 3.5vw;
+    width: 90vw;
+
+    a {
+        font-size: 0.8rem;
+        font-family: $Letra;
+    }
+}
+footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: $Blanco
+}
