@@ -22,7 +22,7 @@
         <source src="temas/diciembre/Navidad.mp3">
     </audio>
     <section id="F">
-        <video src="temas/diciembre/diciembre.mp4" autobuffer="true" autoplay="true" playsinline="true" muted="true" loop="true"></video>
+        <video src="temas/diciembre/diciembre.mp4" type="video/mp4" x-webkit-airplay="deny" autoplay="true" playsinline="true" muted="true" loop="true"></video>
     </section>
     <nav>
         <a href="Web.html#in">Inicio</a>
@@ -32,5 +32,12 @@
         <a href="Web.html#s4">Contactos</a>
         <a href="Game/Game.html">Juego</a>
     </nav>
+
+<section id="code">
+    <h3>Muestra este codigo de barras a ventanila para facilitar la compra</h3>
+                            <img id="codigo"/>
+</section>
+	<script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    <script src="js/Comprar.js"></script>
 </body>
 </html>

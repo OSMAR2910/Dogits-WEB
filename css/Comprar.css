@@ -38,6 +38,28 @@ nav a {
   z-index: -101;
 }
 
+#code {
+  width: 105vw;
+  height: 35vh;
+  margin-left: -100vw;
+  border-radius: 1rem;
+  background-color: rgba(134, 23, 32, 0.6666666667);
+  color: #ffffff;
+  margin-top: 60vh;
+  text-align: center;
+  position: fixed;
+  transition: all 0.5s;
+}
+#code img {
+  width: cover;
+}
+
+#code:hover {
+  border-radius: 0;
+  width: 100vw;
+  margin-left: 0;
+}
+
 @media screen and (max-width: 500px) {
   #F video {
     width: auto;

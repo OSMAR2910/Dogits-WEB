@@ -1,6 +1,28 @@
 @import "variables";
 @import "nav-sl";
 @import "fondo";
+
+#code {
+    width: 105vw;
+    height: 35vh;
+    margin-left: -100vw;
+    border-radius: 1rem;
+    background-color: $Rojot;
+    color: $Blanco;
+    margin-top: 60vh;
+    text-align: center;
+    position: fixed;
+    transition: all 0.5s;
+
+    img {
+        width: cover;
+    }
+}
+#code:hover {
+    border-radius: 0;
+    width: 100vw;
+    margin-left: 0;
+}
 @media screen and (max-width: 500px){
     @import "fondo-m";
     @import "nav-msl";
