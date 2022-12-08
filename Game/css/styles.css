@@ -34,7 +34,6 @@ nav a {
   font-size: 2vw;
   color: #000000;
 }
-
 @-webkit-keyframes octocat-wave {
   0%, 100% {
     transform: rotate(0);
