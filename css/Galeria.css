@@ -1,0 +1,111 @@
+/*General*/ /*Colores*/
+/*Tipos de letra*/
+* {
+  font-family: "Fredoka One", cursive;
+}
+
+html {
+  background-color: #f8d15f;
+}
+
+#in {
+  height: 10vh;
+}
+
+main img {
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  border-color: #f8d15f;
+  margin-top: -45vh;
+  width: 95.7vw;
+  position: fixed;
+  border-bottom: 0.4vh solid #f8d15f;
+  display: flex;
+  padding: 1vw;
+  background-color: rgba(134, 23, 32, 0.6666666667);
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Fredoka One", cursive;
+}
+
+footer {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  color: #ffffff;
+}
+
+/*Colores*/
+/*Tipos de letra*/
+#F video {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -101;
+}
+
+#galeria {
+  background-color: #861720;
+  margin: 2vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+#galeria img {
+  width: 15vw;
+}
+
+@media screen and (max-width: 500px) {
+  /*Movil*/ /*Colores*/
+  /*Tipos de letra*/
+  * {
+    font-family: "Fredoka One", cursive;
+  }
+  html {
+    background-color: #f8d15f;
+  }
+  nav {
+    margin-top: -32.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 3.5vw;
+    width: 90vw;
+  }
+  nav a {
+    font-size: 0.8rem;
+    font-family: "Fredoka One", cursive;
+  }
+  footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    color: #ffffff;
+  }
+  main img {
+    width: 60vw;
+    margin-top: 0vw;
+  }
+  #int {
+    height: 50vh;
+  }
+  #int img {
+    width: 40vw;
+  }
+  #galeria {
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  #galeria img {
+    width: 30vw;
+  }
+}/*# sourceMappingURL=Galeria.css.map */

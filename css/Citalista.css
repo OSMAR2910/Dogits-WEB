@@ -1,0 +1,61 @@
+/*General*/ /*Colores*/
+/*Tipos de letra*/
+* {
+  font-family: "Fredoka One", cursive;
+}
+
+html {
+  background-color: #f8d15f;
+}
+
+#in {
+  height: 10vh;
+}
+
+main img {
+  display: block;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  border-color: #f8d15f;
+  margin-top: -45vh;
+  width: 95.7vw;
+  position: fixed;
+  border-bottom: 0.4vh solid #f8d15f;
+  display: flex;
+  padding: 1vw;
+  background-color: rgba(134, 23, 32, 0.6666666667);
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Fredoka One", cursive;
+}
+
+footer {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  color: #ffffff;
+}
+
+/*Colores*/
+/*Tipos de letra*/
+#F video {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -101;
+}
+
+h1 {
+  color: var(--Blanco);
+  text-align: center;
+}/*# sourceMappingURL=Citalista.css.map */
