@@ -2,40 +2,43 @@
 @import "nav";
 @import "fondo";
 #PR {
-    font-size: 0.8rem;
+    font-size: 1rem;
     background-color: $Secundario;
     padding: 1rem;
-    height: 80vh;
+    height: 100vh;
     text-align: center;
+    display: flex;
     color: $Blanco;
 
     img {
-        width: 10vw;
+        width: 15vw;
         padding: 0.4rem;
         border: 0.4rem solid $Blanco;
         border-radius: 10rem;
     }
+    .P {
+        margin-top: 0vh;
+        margin-left: 5vw;
+    }
     .left {
-        margin-left: 3vw;
+        margin-left: 0vw;
         float: left;
     }
     .right {
-        margin-right: 3vw;
+        margin-right: 0vw;
         float: right;
     }
 }
 @media screen and (max-width: 500px) {
+    @import "fondo-m";
     @import "nav-m";
-    main img {
-        width: 60vw;
-        margin-top: 0vw;
-    }
     #PR {
+        display: block;
         margin: 3vw;
-        font-size: 1rem;
+        font-size: 1.3rem;
         background-color: $Secundario;
         padding: 1rem;
-        height: 400vh;
+        height: 300vh;
         text-align: center;
         color: $Blanco;
 

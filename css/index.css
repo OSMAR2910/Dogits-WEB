@@ -13,6 +13,7 @@ html {
 }
 
 main img {
+  width: 20vw;
   display: block;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -23,6 +24,7 @@ main img {
 nav {
   border-color: #f8d15f;
   margin-top: -45vh;
+  margin-left: 1vw;
   width: 95.7vw;
   position: fixed;
   border-bottom: 0.4vh solid #f8d15f;
@@ -42,16 +44,17 @@ footer {
   margin-top: 6vh;
   margin-bottom: 6vh;
   color: #ffffff;
+  text-align: center;
 }
 
 /*Colores*/
 /*Tipos de letra*/
 #F video {
-  height: 100vh;
+  width: 100vw;
+  height: auto;
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
   z-index: -101;
 }
 
@@ -73,7 +76,7 @@ main img {
   border-radius: 2rem;
   padding: 1.5rem;
   text-decoration: none;
-  color: #ffdcdc;
+  color: #f8d15f;
 }
 #QR a:hover {
   padding: 2rem;
@@ -89,11 +92,11 @@ main img {
 
 @media screen and (max-width: 500px) {
   #F video {
+    width: auto;
     height: 100vh;
     position: fixed;
     left: 0;
     top: 0;
-    height: 100%;
     z-index: -101;
   }
   /*Movil*/ /*Colores*/
@@ -103,6 +106,10 @@ main img {
   }
   html {
     background-color: #f8d15f;
+  }
+  main img {
+    width: 60vw;
+    margin-top: 0vw;
   }
   nav {
     margin-top: -32.5vh;

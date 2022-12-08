@@ -4,25 +4,32 @@
 #cr {
     position: fixed;
     margin-left: 2vw;
-    margin-top: -25vh;
+    margin-top: -35vh;
     color: $Blanco;
     text-align: center;
+    img {
+        width: 6vw;
+        border-radius: 5rem;
+        padding: 1px;
+        border: 0.2rem solid $Blanco;
+    }
 }
 #int {
     text-decoration: none;
     color: $Blanco;
-    height: 50vh;
+    height: 70vh;
     display:flex;
     justify-content: center;
     align-items: center;
 
     video {
+        width: 60vw;
         position: absolute;
         height: inherit;
         z-index: -100; 
     } 
     img {
-        width: 25vw;
+        width: 15vw;
     }
 }
 #info {
@@ -31,14 +38,15 @@
     text-decoration: none;
     color: $Blanco;
     background-color: $Secundario;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
 }
 #serv {
+    font-size: 1.5rem;
     padding: 1rem;
     color: $Blanco;
     background-color: $Secundario;
-    height: 85vh;
+    height: 75vh;
     text-align: center;
 
     img {
@@ -46,7 +54,7 @@
         border: 0.3rem solid $Blanco;
         border-radius: 10rem;
         margin-top: 15vh;
-        width: 15vw;
+        width: 17vw;
         transition: all 0.5s;
     }
     img:hover {
@@ -62,13 +70,17 @@
     }
 }
 #gale {
+    font-size: 1.5rem;
     padding: 1rem;
     text-decoration: none;
     color: $Blanco;
     background-color: $Secundario;
-    height: 25vh;
+    height: 30vh;
     text-align: center;
 
+    h2 {
+        margin-bottom: 7vh;
+    }
     a {
         transition: all 0.5s;
         text-decoration: none;
@@ -82,11 +94,12 @@
     }
 }
 #cont {
+    font-size: 1.5rem;
     padding: 1rem;
     text-decoration: none;
     color: $Blanco;
     background-color: $Secundario;
-    height: 50vh;
+    height: 65vh;
     text-align: center;
 
     a {
@@ -98,11 +111,16 @@
     }
 }
 .hr img {        
-    width: 5vw;
+    width: 4vw;
     padding-left: 3vw;
     padding-right: 3vw;
 }
+#redes {
+    background-color: #ffffff57;
+    text-align: center;
+}
 footer {
+    text-align: center;
     margin-top: 6vh;
     margin-bottom: 6vh;
     color: $Blanco;
@@ -111,8 +129,9 @@ footer {
     height: 10vh;
 }
 @media screen and (max-width: 500px) {
+    @import "fondo-m";
     @import "nav-m";
-    #ag {
+    #cr {
         position: fixed;
         margin-left: 2vw;
         margin-top: -25vh;
@@ -127,10 +146,6 @@ footer {
         }
     }
 
-    main img {
-        width: 60vw;
-        margin-top: 0vw;
-    }
     #int {
         height: 25vh;
 

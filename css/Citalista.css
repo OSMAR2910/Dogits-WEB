@@ -13,6 +13,7 @@ html {
 }
 
 main img {
+  width: 25vw;
   display: block;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -22,7 +23,8 @@ main img {
 
 nav {
   border-color: #f8d15f;
-  margin-top: -45vh;
+  margin-top: -52vh;
+  margin-left: 1vw;
   width: 95.7vw;
   position: fixed;
   border-bottom: 0.4vh solid #f8d15f;
@@ -42,16 +44,17 @@ footer {
   margin-top: 6vh;
   margin-bottom: 6vh;
   color: #ffffff;
+  text-align: center;
 }
 
 /*Colores*/
 /*Tipos de letra*/
 #F video {
-  height: 100vh;
+  width: 100vw;
+  height: auto;
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
   z-index: -101;
 }
 

@@ -1,4 +1,4 @@
-/*General*/
+/*sin logo*/
 @import "variables";
 *{
     font-family: $Letra;
@@ -6,20 +6,10 @@
 html {
     background-color: $Primario;
 }
-#in {
-    height: 10vh;
-}
-main img {
-    width: 20vw;
-    display: block;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 nav {
     border-color: $Primario;
-    margin-top: -45vh;
+    margin-top: 2vh;
     margin-left: 1vw;
     width: 95.7vw;
     position: fixed;
@@ -34,11 +24,4 @@ nav {
         color: $Blanco;
         font-family: $Letra;
     }
-    
-}
-footer {
-    margin-top: 6vh;
-    margin-bottom: 6vh;
-    color: $Blanco;
-    text-align: center;
 }

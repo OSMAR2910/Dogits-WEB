@@ -1,6 +1,7 @@
 @import "variables";
-@import "nav";
+@import "nav-sl";
 @import "fondo";
 @media screen and (max-width: 500px){
+    @import "fondo-m";
     @import "nav-msl";
 }

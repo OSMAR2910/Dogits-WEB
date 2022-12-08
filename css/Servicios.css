@@ -15,6 +15,7 @@ html {
 }
 
 main img {
+  width: 20vw;
   display: block;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -25,6 +26,7 @@ main img {
 nav {
   border-color: #f8d15f;
   margin-top: -45vh;
+  margin-left: 1vw;
   width: 95.7vw;
   position: fixed;
   border-bottom: 0.4vh solid #f8d15f;
@@ -44,41 +46,55 @@ footer {
   margin-top: 6vh;
   margin-bottom: 6vh;
   color: #ffffff;
+  text-align: center;
 }
 
 #F video {
-  height: 100vh;
+  width: 100vw;
+  height: auto;
   position: fixed;
   left: 0;
   top: 0;
-  height: 100%;
   z-index: -101;
 }
 
 #PR {
-  font-size: 0.8rem;
+  font-size: 1rem;
   background-color: #861720;
   padding: 1rem;
-  height: 80vh;
+  height: 100vh;
   text-align: center;
+  display: flex;
   color: #ffffff;
 }
 #PR img {
-  width: 10vw;
+  width: 15vw;
   padding: 0.4rem;
   border: 0.4rem solid #ffffff;
   border-radius: 10rem;
 }
+#PR .P {
+  margin-top: 0vh;
+  margin-left: 5vw;
+}
 #PR .left {
-  margin-left: 3vw;
+  margin-left: 0vw;
   float: left;
 }
 #PR .right {
-  margin-right: 3vw;
+  margin-right: 0vw;
   float: right;
 }
 
 @media screen and (max-width: 500px) {
+  #F video {
+    width: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -101;
+  }
   /*Movil*/ /*Colores*/
   /*Tipos de letra*/
   * {
@@ -86,6 +102,10 @@ footer {
   }
   html {
     background-color: #f8d15f;
+  }
+  main img {
+    width: 60vw;
+    margin-top: 0vw;
   }
   nav {
     margin-top: -32.5vh;
@@ -104,16 +124,13 @@ footer {
     margin-bottom: 6vh;
     color: #ffffff;
   }
-  main img {
-    width: 60vw;
-    margin-top: 0vw;
-  }
   #PR {
+    display: block;
     margin: 3vw;
-    font-size: 1rem;
+    font-size: 1.3rem;
     background-color: #861720;
     padding: 1rem;
-    height: 400vh;
+    height: 300vh;
     text-align: center;
     color: #ffffff;
   }
