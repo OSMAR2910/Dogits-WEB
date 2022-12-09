@@ -42,7 +42,7 @@ export default class DinoGame extends GameRunner {
       dinoGroundOffset: 4, // px
       dinoLegsRate: 5, // fpa
       dinoLift: 10, // ppf
-      scoreBlinkRate: 20, // fpa
+      scoreBlinkRate: 10, // fpa
       scoreIncreaseRate: 6, // fpa
     }
 
