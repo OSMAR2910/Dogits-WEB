@@ -31,16 +31,16 @@ export default class DinoGame extends GameRunner {
      * px: pixels
      */
     this.defaultSettings = {
-      bgSpeed: 8, // ppf
-      birdSpeed: 7.2, // ppf
+      bgSpeed: 9, // ppf
+      birdSpeed: 8, // ppf
       birdSpawnRate: 240, // fpa
       birdWingsRate: 15, // fpa
-      cactiSpawnRate: 50, // fpa
-      cloudSpawnRate: 200, // fpa
-      cloudSpeed: 2, // ppf
-      dinoGravity: 0.5, // ppf
+      cactiSpawnRate: 35, // fpa
+      cloudSpawnRate: 100, // fpa
+      cloudSpeed: 1, // ppf
+      dinoGravity: 0.6, // ppf
       dinoGroundOffset: 4, // px
-      dinoLegsRate: 6, // fpa
+      dinoLegsRate: 5, // fpa
       dinoLift: 10, // ppf
       scoreBlinkRate: 20, // fpa
       scoreIncreaseRate: 6, // fpa
@@ -222,11 +222,11 @@ export default class DinoGame extends GameRunner {
 
     if (level > 4 && level < 8) {
       settings.bgSpeed++
-      settings.birdSpeed = settings.bgSpeed * 0.8
+      settings.birdSpeed = settings.bgSpeed * 1
     } else if (level > 7) {
-      settings.bgSpeed = Math.ceil(bgSpeed * 1.1)
-      settings.birdSpeed = settings.bgSpeed * 0.9
-      settings.cactiSpawnRate = Math.floor(cactiSpawnRate * 0.98)
+      settings.bgSpeed = Math.ceil(bgSpeed * 1.8)
+      settings.birdSpeed = settings.bgSpeed * 1.3
+      settings.cactiSpawnRate = Math.floor(cactiSpawnRate * 1.3)
 
       if (level > 7 && level % 2 === 0 && dinoLegsRate > 3) {
         settings.dinoLegsRate--
