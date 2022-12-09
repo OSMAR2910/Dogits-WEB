@@ -38,17 +38,54 @@ nav a {
   z-index: -101;
 }
 
+nav {
+  margin-top: -10vh;
+}
+
+main {
+  margin-top: 15vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+main #Productos {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3vw;
+}
+main #Productos div {
+  padding: 1vw;
+  background-color: #861720;
+}
+main #Productos p {
+  font-size: 1.5vw;
+}
+main #Productos b {
+  color: #f8d15f;
+  font-size: 1.2vw;
+}
+main #Productos a {
+  color: #ffffff;
+  text-decoration: none;
+}
+main #Productos img {
+  width: 100%;
+}
+
 #code {
-  width: 105vw;
+  width: 100vw;
   height: 35vh;
-  margin-left: -100vw;
+  margin-left: -95vw;
+  margin-top: -175vh;
   border-radius: 1rem;
   background-color: rgba(134, 23, 32, 0.6666666667);
   color: #ffffff;
-  margin-top: 60vh;
   text-align: center;
   position: fixed;
   transition: all 0.5s;
+}
+#code h3 {
+  font-size: large;
 }
 #code img {
   width: cover;
@@ -58,6 +95,9 @@ nav a {
   border-radius: 0;
   width: 100vw;
   margin-left: 0;
+}
+#code:hover h3 {
+  font-size: larger;
 }
 
 @media screen and (max-width: 500px) {
@@ -87,5 +127,51 @@ nav a {
   nav a {
     font-size: 0.8rem;
     font-family: "Fredoka One", cursive;
+  }
+  nav {
+    margin-top: -8vh;
+  }
+  main {
+    margin-top: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  main #Productos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main #Productos div {
+    padding: 2vw;
+  }
+  main #Productos p {
+    font-size: 3.5vw;
+  }
+  main #Productos b {
+    font-size: 3.2vw;
+  }
+  #code {
+    width: 100vw;
+    height: 35vh;
+    margin-left: -90vw;
+    margin-top: -100vh;
+    border-radius: 1rem;
+    background-color: rgba(134, 23, 32, 0.6666666667);
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    transition: all 0.5s;
+  }
+  #code h3 {
+    font-size: 0;
+  }
+  #code img {
+    width: cover;
+  }
+  #code:hover {
+    border-radius: 0;
+    width: 100vw;
+    margin-left: 0;
+  }
+  #code:hover h3 {
+    font-size: larger;
   }
 }/*# sourceMappingURL=Comprar.css.map */
