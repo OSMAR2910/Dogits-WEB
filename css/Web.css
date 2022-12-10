@@ -246,9 +246,10 @@ footer {
     height: 25vh;
   }
   #int img {
-    width: 45vw;
+    width: 40vw;
   }
   #int video {
+    width: 100vw;
     position: absolute;
     height: inherit;
     z-index: -100;

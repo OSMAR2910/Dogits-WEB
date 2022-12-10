@@ -152,12 +152,13 @@ footer {
         height: 25vh;
 
         img {
-            width: 45vw;
+            width: 40vw;
         }
         video {
-        position: absolute;
-        height: inherit;
-        z-index: -100;
+            width: 100vw;
+            position: absolute;
+            height: inherit;
+            z-index: -100; 
         }
     }
     #info {
