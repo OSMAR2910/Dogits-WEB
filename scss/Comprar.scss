@@ -34,6 +34,33 @@ main {
         }
     }
 }
+    #carrito {
+        width: 30vw;
+        height: 80vh;
+        margin-top: -100vh;
+        border-radius: 1rem;
+        background-color: $Rojot;
+        color: $Blanco;
+        text-align: center;
+        position: fixed;
+        transition: all 0.5s;
+
+    h3 {
+        font-size: 0;
+    }
+    img {
+        width: 50%;
+    }
+    }
+    #carrito:active {
+         background-color: $Rojo;
+         border-radius: 0;
+         width: 100vw;
+
+    h3 {
+        font-size: larger;
+    }
+    }
     #code {
         width: 100vw;
         height: 35vh;
@@ -50,10 +77,12 @@ main {
             font-size: large;
         }
         img {
-            width: cover;
+            width: 50%;
         }
     }
     #code:hover {
+
+        background-color: $Rojo;
         border-radius: 0;
         width: 100vw;
         margin-left: 0;
@@ -68,10 +97,10 @@ main {
     nav {
         margin-top: -8vh;
     }
-main {
-    margin-top: 10vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    main {
+        margin-top: 10vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
     #Productos {
         grid-template-columns: repeat(3,1fr);
 
@@ -85,7 +114,35 @@ main {
             font-size: 3.2vw;
         }
     }
-}
+    }
+    #carrito {
+        width: 50vw;
+        height: 90vh;
+        padding: 2vw;
+        margin-left: 80vw;
+        margin-top: -70vh;
+        border-radius: 1rem 0px 0px 1rem;
+        -moz-border-radius: 1rem 0px 0px 1rem;
+        -webkit-border-radius: 1rem 0px 0px 1rem;
+        background-color: $Rojot;
+        color: $Blanco;
+        text-align: center;
+        position: fixed;
+        transition: all 0.5s;
+
+        img {
+            float: left;
+            width: 3rem;
+        }
+    }
+    #carrito:hover {
+        margin-left: 50vw;
+        margin-top: -153vh;
+        border-radius: 1rem 0px 0px 1rem;
+        -moz-border-radius: 1rem 0px 0px 1rem;
+        -webkit-border-radius: 1rem 0px 0px 1rem;
+        background-color: $Rojo;
+    }
     #code {
         width: 100vw;
         height: 35vh;
@@ -102,10 +159,11 @@ main {
             font-size: 0;
         }
         img {
-            width: cover;
+            width: 50%;
         }
     }
     #code:hover {
+        background-color: $Rojo;
         border-radius: 0;
         width: 100vw;
         margin-left: 0;

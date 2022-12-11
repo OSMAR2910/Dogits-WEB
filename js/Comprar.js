@@ -1,5 +1,5 @@
 JsBarcode("#codigo", "291005", {
-    format: "codabar",
-    linecolor: "#fff",
-    displayvalue: true
+    textAlign: "center",
+      background:"#861720",
+    lineColor: "#ffffff"
 });
