@@ -73,37 +73,34 @@ main #Productos img {
 }
 
 #carrito {
-  width: 30vw;
-  height: 80vh;
-  margin-top: -100vh;
-  border-radius: 1rem;
-  background-color: rgba(134, 23, 32, 0.6666666667);
+  width: 80vw;
+  height: 20vh;
+  padding: 0vw;
+  margin-left: 90vw;
+  margin-top: -175vh;
+  border-radius: 5vw 0 0 5vw;
+  -moz-border-radius: 5vw 0 0 5vw;
+  -webkit-border-radius: 5vw 0 0 5vw;
+  background-color: #861720;
   color: #ffffff;
   text-align: center;
   position: fixed;
   transition: all 0.5s;
 }
-#carrito h3 {
-  font-size: 0;
-}
 #carrito img {
-  width: 50%;
+  float: left;
+  width: 10vw;
 }
 
-#carrito:active {
-  background-color: #861720;
-  border-radius: 0;
-  width: 100vw;
-}
-#carrito:active h3 {
-  font-size: larger;
+#carrito:hover {
+  margin-left: 20vw;
 }
 
 #code {
   width: 100vw;
-  height: 35vh;
+  height: 50vh;
   margin-left: -95vw;
-  margin-top: -175vh;
+  margin-top: -200vh;
   border-radius: 1rem;
   background-color: rgba(134, 23, 32, 0.6666666667);
   color: #ffffff;
@@ -115,7 +112,7 @@ main #Productos img {
   font-size: large;
 }
 #code img {
-  width: 50%;
+  width: 20%;
 }
 
 #code:hover {
@@ -177,15 +174,15 @@ main #Productos img {
     font-size: 3.2vw;
   }
   #carrito {
-    width: 50vw;
-    height: 90vh;
-    padding: 2vw;
+    width: 80vw;
+    height: 10vh;
+    padding: 0vw;
     margin-left: 80vw;
-    margin-top: -70vh;
-    border-radius: 1rem 0px 0px 1rem;
-    -moz-border-radius: 1rem 0px 0px 1rem;
-    -webkit-border-radius: 1rem 0px 0px 1rem;
-    background-color: rgba(134, 23, 32, 0.6666666667);
+    margin-top: -100vh;
+    border-radius: 5vw 0 0 5vw;
+    -moz-border-radius: 5vw 0 0 5vw;
+    -webkit-border-radius: 5vw 0 0 5vw;
+    background-color: #861720;
     color: #ffffff;
     text-align: center;
     position: fixed;
@@ -193,21 +190,16 @@ main #Productos img {
   }
   #carrito img {
     float: left;
-    width: 3rem;
+    width: 20vw;
   }
   #carrito:hover {
-    margin-left: 50vw;
-    margin-top: -153vh;
-    border-radius: 1rem 0px 0px 1rem;
-    -moz-border-radius: 1rem 0px 0px 1rem;
-    -webkit-border-radius: 1rem 0px 0px 1rem;
-    background-color: #861720;
+    margin-left: 20vw;
   }
   #code {
     width: 100vw;
     height: 35vh;
     margin-left: -90vw;
-    margin-top: -100vh;
+    margin-top: -115vh;
     border-radius: 1rem;
     background-color: rgba(134, 23, 32, 0.6666666667);
     color: #ffffff;

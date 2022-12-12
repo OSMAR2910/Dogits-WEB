@@ -59,31 +59,28 @@ footer {
 }
 
 #PR {
-  font-size: 1rem;
-  background-color: #861720;
-  padding: 1rem;
-  height: 100vh;
   text-align: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#PR div {
+  padding: 1vw;
+  background-color: #861720;
+}
+#PR h2 {
+  color: #f8d15f;
+}
+#PR p {
   color: #ffffff;
+  font-size: 1.5vw;
+}
+#PR b {
+  color: #f8d15f;
+  font-size: 1.2vw;
 }
 #PR img {
-  width: 15vw;
-  padding: 0.4rem;
-  border: 0.4rem solid #ffffff;
-  border-radius: 10rem;
-}
-#PR .P {
-  margin-top: 0vh;
-  margin-left: 5vw;
-}
-#PR .left {
-  margin-left: 0vw;
-  float: left;
-}
-#PR .right {
-  margin-right: 0vw;
-  float: right;
+  width: 100%;
+  border-radius: 20%;
 }
 
 @media screen and (max-width: 500px) {
@@ -125,31 +122,26 @@ footer {
     color: #ffffff;
   }
   #PR {
-    display: block;
-    margin: 3vw;
-    font-size: 1.3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #PR div {
+    padding: 1vw;
     background-color: #861720;
-    padding: 1rem;
-    height: 300vh;
-    text-align: center;
+  }
+  #PR h2 {
+    color: #f8d15f;
+    font-size: 4vw;
+  }
+  #PR p {
     color: #ffffff;
+    font-size: 2.5vw;
+  }
+  #PR b {
+    color: #f8d15f;
+    font-size: 3vw;
   }
   #PR img {
-    margin-top: 2vh;
-    padding: 0.4rem;
-    border: 0.3rem solid #ffffff;
-    border-radius: 10rem;
-    width: 35vw;
-  }
-  #PR .P {
-    margin-top: 5vh;
-  }
-  #PR .left {
-    margin-left: 0vw;
-    float: none;
-  }
-  #PR .right {
-    margin-right: 0vw;
-    float: none;
+    width: 100%;
+    border-radius: 20%;
   }
 }/*# sourceMappingURL=Servicios.css.map */

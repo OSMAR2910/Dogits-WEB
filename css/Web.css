@@ -91,7 +91,7 @@ footer {
 }
 
 #info {
-  font-size: 1.5rem;
+  font-size: cover;
   padding: 1rem;
   text-decoration: none;
   color: #ffffff;
@@ -258,9 +258,10 @@ footer {
     margin: 2.5vw;
     height: 50vh;
     padding: 10vw;
-    font-size: 1.2rem;
+    font-size: cover;
   }
   #serv {
+    font-size: cover;
     margin: 2.5vw;
     padding: 1rem;
     height: 120vh;
@@ -271,7 +272,7 @@ footer {
     border: 0.3rem solid #ffffff;
     border-radius: 10rem;
     margin-top: 0vh;
-    width: 45vw;
+    width: 40vw;
     transition: all 0.5s;
   }
   #serv img:hover {
@@ -306,7 +307,7 @@ footer {
     margin: 2.5vw;
     height: 50vh;
     padding: 5vw;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   #cont .wa img {
     border-radius: 10vw;

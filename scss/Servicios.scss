@@ -1,64 +1,57 @@
 @import "variables";    
 @import "nav";
 @import "fondo";
-#PR {
-    font-size: 1rem;
-    background-color: $Secundario;
-    padding: 1rem;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    color: $Blanco;
 
-    img {
-        width: 15vw;
-        padding: 0.4rem;
-        border: 0.4rem solid $Blanco;
-        border-radius: 10rem;
+    #PR {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+
+        div {
+            padding: 1vw;
+            background-color: $Secundario;
+        }
+        h2 {
+            color: $Primario;
+        }
+        p {
+            color: $Blanco;
+            font-size: 1.5vw;
+        }
+        b {
+            color: $Primario;
+            font-size: 1.2vw;
+        }
+        img {
+            width: 100%;
+            border-radius: 20%;
+        }
     }
-    .P {
-        margin-top: 0vh;
-        margin-left: 5vw;
-    }
-    .left {
-        margin-left: 0vw;
-        float: left;
-    }
-    .right {
-        margin-right: 0vw;
-        float: right;
-    }
-}
 @media screen and (max-width: 500px) {
     @import "fondo-m";
     @import "nav-m";
     #PR {
-        display: block;
-        margin: 3vw;
-        font-size: 1.3rem;
-        background-color: $Secundario;
-        padding: 1rem;
-        height: 300vh;
-        text-align: center;
-        color: $Blanco;
+        grid-template-columns: repeat(2,1fr);
 
+        div {
+            padding: 1vw;
+            background-color: $Secundario;
+        }
+        h2 {
+            color: $Primario;
+            font-size: 4vw;
+        }
+        p {
+            color: $Blanco;
+            font-size: 2.5vw;
+        }
+        b {
+            color: $Primario;
+            font-size: 3vw;
+        }
         img {
-            margin-top: 2vh;
-            padding: 0.4rem;
-            border: 0.3rem solid $Blanco;
-            border-radius: 10rem;
-            width: 35vw;
-        }
-        .P {
-            margin-top: 5vh;
-        }
-        .left {
-        margin-left: 0vw;
-        float: none;
-        }
-        .right {
-        margin-right: 0vw;
-        float: none;
+            width: 100%;
+            border-radius: 20%;
         }
     }
 }
