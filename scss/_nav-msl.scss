@@ -15,7 +15,12 @@ nav {
     width: 90vw;
 
     a {
-        font-size: 0.8rem;
+        font-size: 3vw;
         font-family: $Letra;
+    }
+}
+@media screen and (max-height: 650px) {
+    nav {
+        margin-top: -36vh;
     }
 }

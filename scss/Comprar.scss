@@ -146,7 +146,7 @@ main {
         transition: all 0.5s;
 
         h3 {
-            font-size: 0;
+            font-size: 0vw;
         }
         img {
             width: 50%;
@@ -159,7 +159,24 @@ main {
         margin-left: 0;
 
         h3 {
-            font-size: larger;
+            font-size: medium;
+        }
+    }
+}
+@media screen and (max-height: 650px) {
+    #carrito {
+        margin-top: -115vh;
+
+        img {
+            float: left;
+            width: 17vw;
+        }
+    }
+    #code {
+        margin-top: -135vh;
+
+        img {
+            width: 40%;
         }
     }
 }
