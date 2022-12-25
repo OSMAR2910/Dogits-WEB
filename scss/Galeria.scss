@@ -1,0 +1,49 @@
+@import "carga";
+@import "nav";
+@import "variables";
+@import "fondo";
+@import "playvid";
+
+#galeria {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    background-color: $Secundario;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+    img {
+        width: 100%;
+    }
+}
+footer {
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    a {
+        color: $Blanco;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    #int {
+        height: 50vh;
+
+        img {
+            width: 40vw;
+        }
+    }
+    #galeria {
+        margin: 2.5vw;
+        background-color: $Secundario;
+        padding: 3vw;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+        img {
+            width: 100%;
+        }
+    }
+}

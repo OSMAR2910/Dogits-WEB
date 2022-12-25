@@ -1,0 +1,23 @@
+@import "variables";
+#F {
+  width: 250vh;
+  height: 3000vh;
+  margin-top: -2900vh;
+  background-image: $Fondo;
+  position: fixed;
+  z-index: -101;
+  animation: fondo 120s ease-in-out infinite;
+  }
+@media screen and (max-width: 500px){
+  #F {
+  width: 100vh;
+  }
+}
+  @keyframes fondo {
+    0% {
+      transform: translateY(0vh);
+    }
+    100% {
+      transform: translateY(2900vh);
+    }
+  }
