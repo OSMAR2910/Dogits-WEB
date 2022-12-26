@@ -48,7 +48,7 @@ cerrarmodal.addEventListener("click",()=>{
 
 const code = document.getElementById('code');
 
-new QRCode(code, 'DOGITS.NETLIFY.APP&nDIS.HTML');
+new QRCode(code, 'dOGIts.netlifY.App&nDIS.HTML');
 //Playvid
 var fondo = document.getElementById("vid");
 var sound = document.getElementById("aud");
