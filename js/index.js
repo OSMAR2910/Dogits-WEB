@@ -44,10 +44,11 @@ cerrarmodal.addEventListener("click",()=>{
     modal.close();
 }
 )
-//QR
+//QRDOGITS.NETLIFY.APP-sERVICIOS.HTML
+
 const code = document.getElementById('code');
 
-new QRCode(code, 'No ahi informacion ahun');
+new QRCode(code, 'DOGITS.NETLIFY.APP&nDIS.HTML');
 //Playvid
 var fondo = document.getElementById("vid");
 var sound = document.getElementById("aud");
