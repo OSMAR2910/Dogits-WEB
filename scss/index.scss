@@ -1,5 +1,4 @@
 @import "carga";
-@import "nav";
 @import "variables";
 @import "fondo";
 @import "playvid";
@@ -47,10 +46,10 @@ footer {
     @import "carga-sn";
     main {
         img {
-            margin-bottom: 4vh;
-            width: 50vw;
+            width: 65vw;
             display: block;
             margin-top: -15vh;
+            margin-bottom: 5vh;
             margin-left: auto;
             margin-right: auto;
         }

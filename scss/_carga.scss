@@ -12,14 +12,9 @@
             display: block;
             #circulo {
                 width: 7rem;
-                height: 7rem;
                 animation: load 3s ease-in-out infinite;
-                border-radius: 100%;
-                border: 0.8rem dotted $Blanco;
                 img {
-                    border-radius: 100%;
                     width: 7rem;
-                    height: 7rem;
                 }
             }
         }
@@ -28,12 +23,9 @@
     #logo_load{
         #cargando {
             #circulo {
-                width: 5rem;
-                height: 5rem;
-                border: 0.5rem dotted $Blanco;
+                width: 10rem;
                 img {
-                    width: 5rem;
-                    height: 5rem;
+                    width: 10rem;
                 }
             }
         }
