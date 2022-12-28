@@ -2,7 +2,7 @@ import DinoGame from './game/DinoGame.js'
 
 alert('Te recomendamos que pongas tu dispositivo móvil en horizontal')
 
-const game = new DinoGame(600, 300)
+const game = new DinoGame(550, 250)
 
 const isTouchDevice =
   'ontouchstart' in window ||

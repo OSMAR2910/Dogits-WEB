@@ -450,7 +450,7 @@ footer {
 }
 @media screen and (max-height: 650px) {
   main img {
-    margin-top: 7vh;
+    margin-top: 8vh;
   }
   nav {
     margin-top: -42vh;

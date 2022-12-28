@@ -93,6 +93,8 @@
         background-color: $Transparente;
         border: 0; 
         img {
+            border: 2px solid $Blanco;
+            border-radius: 100%;
             width: 5rem;
         }
     }
@@ -354,6 +356,9 @@ footer {
     }
 }
 @media screen and (max-height: 650px) {
+    #modal1 {
+        height: 90vh;
+    }
     #ag {
         margin-top: 10vh;
     }

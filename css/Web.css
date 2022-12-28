@@ -453,7 +453,7 @@ footer {
 }
 @media screen and (max-height: 650px) {
   main img {
-    margin-top: 7vh;
+    margin-top: 8vh;
   }
   nav {
     margin-top: -42vh;
@@ -768,6 +768,8 @@ footer {
   border: 0;
 }
 #ag button img {
+  border: 2px solid #ffffff;
+  border-radius: 100%;
   width: 5rem;
 }
 
@@ -1025,6 +1027,9 @@ footer a {
   }
 }
 @media screen and (max-height: 650px) {
+  #modal1 {
+    height: 90vh;
+  }
   #ag {
     margin-top: 10vh;
   }
