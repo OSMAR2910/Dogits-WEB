@@ -58,6 +58,10 @@ footer {
     }
     .links {
         margin-left: 2vw;
+        iframe {
+            margin-top: 3%;
+            width: 90%;
+        }
         a {
             border-radius: 5vw;
             font-size: 1.6rem;

@@ -385,6 +385,10 @@ footer a {
   .links {
     margin-left: 2vw;
   }
+  .links iframe {
+    margin-top: 3%;
+    width: 90%;
+  }
   .links a {
     border-radius: 5vw;
     font-size: 1.6rem;

@@ -129,6 +129,9 @@
     height: 25rem;
     color: $Blanco;
     font-size: 1.7rem;
+            #info_cont{
+            margin-top: 6%;
+        }
 }
 #serv {
     margin: 0 1rem;
@@ -147,11 +150,12 @@
         color: $Blanco;
     }
     h2 {
+        font-size: 250%;
         grid-column: 1/5;
         color: $Blanco;
     }
     img {
-        width: 70%;
+        width: 100%;
         border-radius: 20%;
         padding: 0.3vw;
         border: 0.3rem solid $Blanco;
