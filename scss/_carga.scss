@@ -1,0 +1,35 @@
+@import "animaciones";
+@import "variables";
+    #logo_load{
+        width: 100vw;
+        height: 100vh;
+        background: $Primario;
+        position: fixed;
+        display: flex;
+        z-index: 10000;
+        #cargando {
+            margin: auto;
+            display: block;
+            #circulo {
+                width: 6rem;
+                height: 6rem;
+                animation: load 3s ease-in-out infinite;
+                img {
+                    width: 6rem;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 500px){
+    #logo_load{
+        #cargando {
+            #circulo {
+                width: 5rem;
+                height: 5rem;
+                img {
+                    width: 5rem;
+                }
+            }
+        }
+    }
+    }
