@@ -1,0 +1,280 @@
+@import "carga";
+@import "nav";
+@import "variables";
+@import "fondo";
+@import "playvid";
+
+/*Modal*/
+#modal1 {
+    width: 70vw;
+    height: 95vh;
+    background-color: $Rojot;
+    border: 0;
+    border-radius: 1.5rem;
+    button {
+        width: 2rem;
+        height: 2rem;
+        color: $Blanco;
+        margin-top: -6px;
+        margin-left: -6px;
+        position: fixed;
+        border-radius: 100%;
+        font-size: 100%;
+        background-color: $Primario;
+        border: 0;
+        z-index: 100;
+    }
+    #modal1_cont {
+        height: 60%;
+        background-color: $Transparente;
+        overflow: scroll;
+        #Productos {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+    
+            div {
+                text-align: center;
+                margin: 1vw;
+                padding: 1vw;
+                background-color: $Secundario;
+            }
+            p {
+                font-size: 1.5vw;
+            }
+            b {
+                color: $Primario;
+                font-size: 1.2vw;
+            }
+            a {
+                color: $Blanco;
+                text-decoration: none;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+    #modal1_code {
+        width: 100%;
+        height: 35%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100%;
+        background-color: $Rojo;
+        margin-top: 3%;
+
+        .carrito {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #code {
+            display: flex;
+            align-items: center;
+            img {
+                height: 95%;
+                margin: auto;
+            }
+        }
+
+    }
+}
+#modal1::backdrop {
+    background-color:rgba(0, 0, 0, 0.700);
+}
+#modal2 {
+    width: 95vw;
+    height: 90vh;
+    background-color: $Rojot;
+    border-radius: 1rem;
+    border: 0;
+    button {
+        width: 2rem;
+        height: 2rem;
+        color: $Blanco;
+        margin-top: -6px;
+        margin-left: -6px;
+        position: fixed;
+        border-radius: 100%;
+        font-size: 100%;
+        background-color: $Primario;
+        border: 0;
+        z-index: 100;
+    }
+    #modal2_cont {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div {
+            width: 30%;
+            height: 30%;
+            padding: 1rem;
+            background-color: $Rojo;
+            display: flex;
+            align-items: center;
+            #BB {
+                width: 27.2%;
+                height: 25.5%;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.700);
+                z-index: 5;
+            }
+            video {
+                width: 29%;
+                height: 29%;
+                position: absolute;
+                z-index: 4;
+            }
+            a {
+                position: relative;
+                font-size: 150%;
+                text-decoration: none;
+                color: $Blanco;
+                z-index: 6;
+                #J {
+                    margin-left: 70%;
+                    font-family: $Rubukbubbles;
+                }
+                #P {
+                    margin-left: 50%;
+                    font-family: $Start;
+                }
+            }
+        }
+    }
+    
+}
+#modal2::backdrop {
+    background-color:rgba(0, 0, 0, 0.800);
+}
+/*Fixed*/
+#ag {
+    position: fixed;
+    margin: 15vh 0 0 2vw;
+    text-align: center;
+    font-size: 0.7rem;
+    color: $Blanco;
+    z-index: 150;
+    button {
+        background-color: $Transparente;
+        border: 0; 
+        img {
+            border: 2px solid $Blanco;
+            border-radius: 100%;
+            width: 5rem;
+        }
+    }
+}
+/*Contenido*/
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 0 1.5vw;
+    .img {
+        margin: 0 0.5vw;
+    }
+    h3 {
+        font-size: larger;
+    }
+    p {
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 500px) {
+    #modal1 {
+    width: 85vw;
+    height: 80vh;
+    #modal1_cont {
+        height: 75%;
+        #Productos {
+            grid-template-columns: repeat(3,1fr);
+    
+            div {
+                padding: 2vw;
+            }
+            p {
+                font-size: 3.5vw;
+            }
+            b {
+                font-size: 3.2vw;
+            }
+        }
+    }
+    #modal1_code {
+        width: 100%;
+        height: 25%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 100%;
+        background-color: $Rojo;
+        margin-top: 3%;
+
+        .carrito {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        #code {
+            grid-column: 2 / 4;
+            img,
+            canvas {
+                width: 80%;
+                height: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+    }
+    #modal2 {
+    width: 85vw;
+    height: 60vh;
+    #modal2_cont {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        div {
+            width: 90%;
+            height: 40%;
+            padding: 1rem;
+            #BB {
+                width: 60%;
+                height: 16%;
+                position: absolute;
+            }
+            video {
+                width: 68%;
+            }
+            a {
+                font-size: 100%;
+                #J {
+                    margin-left: 45%;
+                }
+                #P {
+                    margin-left: 30%;
+                }
+            }
+        }
+    }
+    
+    }
+    #ag {
+        position: fixed;
+        margin-top: 10vh;
+        text-align: center;
+        font-size: 0.7rem;
+        button {
+            background-color: $Transparente;
+            border: 0; 
+            img {
+                width: 15vw;
+            }
+        }
+    }
+    #galeria {
+        grid-template-columns: repeat(2,1fr);
+        .img {
+            margin: 0 1vw;
+        }
+    }
+}
