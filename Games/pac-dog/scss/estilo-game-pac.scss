@@ -1,0 +1,26 @@
+body {
+    background-color: #000000be;
+    #divcanva {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        #canvas {
+            display: flex;
+            align-items: center;
+        }
+    }
+    #flechas {
+        display: flex;
+        justify-content: space-between;
+        margin: 8vh 2vw;
+        padding: 5%;
+        background-color: #000000;
+        button {
+            width: 20vw;
+            height: 10vh;
+            font-size: 200%;
+        }
+    }
+}

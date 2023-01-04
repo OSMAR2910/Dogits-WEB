@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/Iconos/Logo.png" type="image/x-icon">
+    <meta name="theme-color" content="#f8d15f">
+    <meta name="msapplication-navbutton-color" content="#f8d15f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f8d15f">
+    <link rel="stylesheet" href="../../css/estilo-game-pac.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <script src="https://kit.fontawesome.com/15d60a6cf6.js" crossorigin="anonymous"></script>
+    <title>Pac-dog</title>
+</head>
+<body>
+    <div id="divcanva">
+        <canvas id="canvas" width="414" height="540"></canvas>
+        <div style="display:none;">
+            <img id="animation" src="img/animations.gif" width="140" height="20">
+            <img id="ghosts" src="img/ghost.png" width="140" height="20">
+        </div>
+    </div>
+    <!--
+    <div id="flechas">
+        <button onclick="arriba()" id="arriba"><i class="fa-solid fa-arrow-up"></i></button>
+        <button onclick="abajo()" id="abajo"><i class="fa-solid fa-arrow-down"></i></button>
+        <button onclick="izquierda()" id="izquierda"><i class="fa-solid fa-arrow-left"></i></button>
+        <button onclick="derecha()" id="derecha"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    -->
+    <script src="js/ghost.js"></script>
+    <script src="js/pacman.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
