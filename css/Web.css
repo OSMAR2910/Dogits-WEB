@@ -391,6 +391,7 @@
 
 body {
   background-color: #f8d15f;
+  scroll-behavior: smooth;
 }
 body header {
   width: 100vw;

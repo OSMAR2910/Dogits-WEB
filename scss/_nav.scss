@@ -9,6 +9,7 @@
 }
 body {
     background-color: $Primario;
+    scroll-behavior: smooth;
     header {
         width: 100vw;
         background-color: $Secundario;
