@@ -148,30 +148,12 @@
 #modal2::backdrop {
     background-color:rgba(0, 0, 0, 0.800);
 }
-/*Fixed*/
-#ag {
-    position: fixed;
-    margin: 15vh 0 0 2vw;
-    text-align: center;
-    font-size: 0.7rem;
-    color: $Blanco;
-    z-index: 150;
-    button {
-        background-color: $Transparente;
-        border: 0; 
-        img {
-            border: 2px solid $Blanco;
-            border-radius: 100%;
-            width: 5rem;
-        }
-    }
-}
 /*Contenido*/
 #contenedor {
     width: 100vw;
     display: flex;
     position: fixed;
-    margin-top: -15vh;
+    margin-top: 10vh;
     #text_cont {
     border-radius: 2rem;
     padding: 3rem;

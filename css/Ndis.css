@@ -232,6 +232,15 @@
     width: 5rem;
   }
 }
+@media screen and (max-height: 650px) {
+  #logo_load #cargando #circulo {
+    width: 3rem;
+    height: 3rem;
+  }
+  #logo_load #cargando #circulo img {
+    width: 3rem;
+  }
+}
 /*General*/ /*Colores*/
 /*Tipos de letra*/
 /*Fondos*/
@@ -373,147 +382,306 @@
   font-family: "Fredoka One", cursive;
 }
 
-html {
+#in {
+  height: 42vh;
+}
+
+body {
   background-color: #f8d15f;
 }
-
-#in {
-  height: 10vh;
+body header {
+  width: 100vw;
+  background-color: #861720;
+  margin-top: -42vh;
+  padding: 1% 0 1% 0;
+  position: fixed;
+  transition: all 0.5s;
+  z-index: 100;
 }
-
-main img {
-  width: 23vw;
-  display: block;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: auto;
-  margin-right: auto;
+body header a {
+  display: flex;
+}
+body header a img {
+  width: 10%;
+  margin: 1% auto 2% auto;
+  box-shadow: 0px 0px 100px -20px rgb(0, 0, 0);
+  border-radius: 15%;
   -webkit-animation: logo_palpitar 3.5s ease-in-out infinite, logo 1.5s 1;
           animation: logo_palpitar 3.5s ease-in-out infinite, logo 1.5s 1;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
-
-nav {
-  width: 95%;
+body header ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  margin-left: 1.5vw;
-  margin-right: 2.5vw;
-  border-color: #f8d15f;
-  margin-top: -50vh;
-  position: fixed;
-  box-shadow: 0px 0px 70px 0px rgb(255, 255, 255);
-  padding: 1vw;
-  background-color: rgba(134, 23, 32, 0.6666666667);
-  justify-content: space-evenly;
-  z-index: 150;
+  justify-content: center;
 }
-nav a {
-  font-size: 1vw;
+body header ul nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body header ul nav li {
+  display: flex;
+  list-style: none;
+}
+body header ul nav li button {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  border: 0;
+}
+body header ul nav li a {
+  display: flex;
   text-decoration: none;
   color: #ffffff;
-  font-family: "Fredoka One", cursive;
 }
-nav button {
-  border: 0;
-  background-color: rgba(255, 255, 255, 0);
-  font-size: 1vw;
+body header ul nav li a .icon_text {
+  display: flex;
+  align-items: center;
+  font-size: 140%;
+}
+body header.abajo {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  padding: 1%;
+  display: flex;
+  position: fixed;
+  margin-top: -42vh;
+  transition: all 0.5s;
+}
+body header.abajo a {
+  width: 5%;
+}
+body header.abajo a img {
+  width: 100%;
+  justify-content: flex-start;
+}
+body header.abajo ul {
+  width: 90%;
+  justify-content: flex-end;
+}
+body header.abajo ul nav {
+  width: 45%;
+  justify-content: space-around;
+}
+body header.abajo ul nav li {
+  align-items: center;
+}
+body header.abajo ul nav li button {
+  font-size: 150%;
+}
+body header.abajo ul nav li a {
   color: #ffffff;
 }
-
-footer {
+body header.abajo ul nav li a .icon_text {
+  display: flex;
+  align-items: center;
+  font-size: 140%;
+}
+body #ag {
+  position: fixed;
+  margin: 5vh 0 0 1vw;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #ffffff;
+  transition: all 0.5s;
+  z-index: 150;
+}
+body #ag button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+body #ag button img {
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  width: 5rem;
+}
+body #ag.abajo {
+  margin: 15vh 0 0 1vw;
+}
+body footer {
   margin-top: 6vh;
   margin-bottom: 6vh;
   text-align: center;
 }
-footer a {
+body footer a {
   color: #ffffff;
   text-decoration: none;
 }
 
 @media screen and (max-width: 500px) {
-  * {
-    font-family: "Fredoka One", cursive;
+  #in {
+    height: 20vh;
   }
-  html {
-    background-color: #f8d15f;
+  body header {
+    margin-top: -20vh;
   }
-  main img {
-    width: 55vw;
-    margin-top: 0vw;
-    padding: 0.1rem;
+  body header a img {
+    margin: 3% auto 2% auto;
+    width: 30%;
   }
-  nav {
-    width: 90%;
-    margin-top: -31vh;
-    padding: 3.5vw;
+  body header ul {
+    padding: 2% 0;
   }
-  nav a {
-    font-size: 2.7vw;
-    font-family: "Fredoka One", cursive;
+  body header ul nav li button {
+    font-size: 80%;
   }
-  nav button {
-    font-size: 2.7vw;
+  body header ul nav li a .icon {
+    display: flex;
   }
-  footer {
+  body header ul nav li a .icon_text {
+    font-size: 80%;
+  }
+  body header.abajo {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100vw;
+    padding: 1%;
+    display: flex;
+    position: fixed;
+    margin-top: -20vh;
+    transition: all 0.5s;
+  }
+  body header.abajo a {
+    width: 10%;
+  }
+  body header.abajo a img {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  body header.abajo ul {
+    width: 95%;
+    justify-content: center;
+  }
+  body header.abajo ul nav {
+    width: 95%;
+    justify-content: space-between;
+  }
+  body header.abajo ul nav li button {
+    font-size: 75%;
+  }
+  body header.abajo ul nav li a .icon_text {
+    font-size: 75%;
+  }
+  body #ag {
+    position: fixed;
+    margin: 2vh 0 0 2vw;
     text-align: center;
+    font-size: 0.7rem;
+    color: #ffffff;
+    transition: all 0.5s;
+    z-index: 150;
+  }
+  body #ag button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+  }
+  body #ag button img {
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    width: 3.5rem;
+  }
+  body #ag.abajo {
+    margin: 6vh 0 0 2vw;
+  }
+  body footer {
     margin-top: 6vh;
     margin-bottom: 6vh;
+    text-align: center;
+  }
+  body footer a {
     color: #ffffff;
+    text-decoration: none;
   }
 }
-@media screen and (max-height: 650px) {
-  main img {
-    margin-top: 8vh;
+@media screen and (max-height: 640px) {
+  #in {
+    height: 25vh;
   }
-  nav {
-    margin-top: -42vh;
+  body header {
+    margin-top: -25vh;
+  }
+  body header ul nav li button {
+    font-size: 70%;
+  }
+  body header ul nav li a .icon {
+    font-size: 70%;
+  }
+  body header ul nav li a .icon_text {
+    font-size: 70%;
+  }
+  body header.abajo {
+    margin-top: -25vh;
+  }
+  body header.abajo a {
+    width: 12%;
+  }
+  body header.abajo ul {
+    width: 95%;
+  }
+  body header.abajo ul nav {
+    width: 95%;
+  }
+  body header.abajo ul nav li button {
+    font-size: 65%;
+  }
+  body header.abajo ul nav li a .icon_text {
+    font-size: 65%;
+  }
+  body #ag {
+    margin: 5vh 0 0 2vw;
+  }
+  body #ag.abajo {
+    margin: 10vh 0 0 2vw;
   }
 }
 /*Colores*/
 /*Tipos de letra*/
 /*Fondos*/
 #BP {
-  margin-top: 15vh;
-  margin-left: 90vw;
+  margin: 5vh 93vw;
   position: fixed;
+  transition: all 0.5s;
   z-index: 150;
 }
 #BP button {
-  width: 5rem;
-  height: 5rem;
-  box-shadow: 0px 0px 60px 10px rgba(255, 255, 255, 0.62);
+  width: 4.5rem;
+  height: 4.5rem;
   color: #ffffff;
   font-size: 100%;
   border-radius: 1rem;
-  border: 0;
+  border: 1px solid #ffffff;
   background-color: #861720;
   transition: all 0.5s;
 }
-#BP button:hover {
+#BP button:active {
   background-color: #f8d15f;
+}
+
+#BP.abajo {
+  margin: 15vh 93vw;
 }
 
 @media screen and (max-width: 500px) {
   #BP {
-    margin-top: 10vh;
-    margin-left: 80vw;
+    margin: 2vh 85vw;
   }
   #BP button {
-    width: 16vw;
-    height: 6vh;
+    width: 3.5rem;
+    height: 3.5rem;
   }
-  #BP button:active {
-    background-color: #f8d15f;
+  #BP.abajo {
+    margin: 6vh 85vw;
   }
 }
 @media screen and (max-height: 650px) {
   #BP {
-    margin-top: 10vh;
+    margin: 5vh 80vw;
   }
-  #BP button {
-    width: 16vw;
-    height: 7vh;
+  #BP.abajo {
+    margin: 10vh 80vw;
   }
 }
 /*Colores*/
@@ -706,31 +874,12 @@ footer a {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/*Fixed*/
-#ag {
-  position: fixed;
-  margin: 15vh 0 0 2vw;
-  text-align: center;
-  font-size: 0.7rem;
-  color: #ffffff;
-  z-index: 150;
-}
-#ag button {
-  background-color: rgba(255, 255, 255, 0);
-  border: 0;
-}
-#ag button img {
-  border: 2px solid #ffffff;
-  border-radius: 100%;
-  width: 5rem;
-}
-
 /*Contenido*/
 #contenedor {
   width: 100vw;
   display: flex;
   position: fixed;
-  margin-top: -15vh;
+  margin-top: 10vh;
 }
 #contenedor #text_cont {
   border-radius: 2rem;

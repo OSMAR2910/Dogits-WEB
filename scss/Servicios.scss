@@ -148,24 +148,6 @@
 #modal2::backdrop {
     background-color:rgba(0, 0, 0, 0.800);
 }
-/*Fixed*/
-#ag {
-    position: fixed;
-    margin: 15vh 0 0 2vw;
-    text-align: center;
-    font-size: 0.7rem;
-    color: $Blanco;
-    z-index: 150;
-    button {
-        background-color: $Transparente;
-        border: 0; 
-        img {
-            border: 2px solid $Blanco;
-            border-radius: 100%;
-            width: 5rem;
-        }
-    }
-}
 /*Contenido*/
     #PR {
         text-align: center;
@@ -279,19 +261,6 @@
         }
     }
     
-    }
-    #ag {
-        position: fixed;
-        margin-top: 10vh;
-        text-align: center;
-        font-size: 0.7rem;
-        button {
-            background-color: $Transparente;
-            border: 0; 
-            img {
-                width: 15vw;
-            }
-        }
     }
     #PR {
         margin: 2.5vw;

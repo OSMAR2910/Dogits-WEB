@@ -33,3 +33,16 @@
         }
     }
     }
+    @media screen and (max-height: 650px){
+    #logo_load{
+        #cargando {
+            #circulo {
+                width: 3rem;
+                height: 3rem;
+                img {
+                    width: 3rem;
+                }
+            }
+        }
+    }
+    }

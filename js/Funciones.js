@@ -4,6 +4,15 @@ window.onload = function () {
     contenedor.style.visibility = 'hidden';
     contenedor.style.opacity = '0';
 }
+//Aniscroll nav
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    var ag = document.querySelector("#ag");
+    var bp = document.querySelector("#BP");
+    header.classList.toggle("abajo", window.scrollY>0);
+    ag.classList.toggle("abajo", window.scrollY>0);
+    bp.classList.toggle("abajo", window.scrollY>0);
+})
 //Modal1
 const abrirmodal1 = document.querySelector("#button_ag_abrir");
 const cerrarmodal1 = document.querySelector("#button_ag_cerrar");
