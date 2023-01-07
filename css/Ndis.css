@@ -433,6 +433,7 @@ body header ul nav li button {
   background-color: rgba(255, 255, 255, 0);
   color: #ffffff;
   border: 0;
+  font-size: 140%;
 }
 body header ul nav li a {
   display: flex;
@@ -465,14 +466,14 @@ body header.abajo ul {
   justify-content: flex-end;
 }
 body header.abajo ul nav {
-  width: 45%;
+  width: 60%;
   justify-content: space-around;
 }
 body header.abajo ul nav li {
   align-items: center;
 }
 body header.abajo ul nav li button {
-  font-size: 150%;
+  font-size: 140%;
 }
 body header.abajo ul nav li a {
   color: #ffffff;
